@@ -5,7 +5,7 @@ author        = "FIXME"
 description   = "FIXME"
 license       = "FIXME"
 srcDir        = "src"
-bin           = @["tui", "gui", "web", "web_static"]
+bin           = @["woven"]
 
 task emscripten, "Build the emscripten release version":
   # build with emscripten
